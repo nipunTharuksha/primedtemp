@@ -1,0 +1,281 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(Montserrat-Regular.otf);
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+a {
+  color: #0087C3;
+  text-decoration: none;
+}
+
+body {
+  position: relative;
+  width: 24cm;  
+  height: 29.7cm; 
+  margin: 0 auto; 
+  color: #555555;
+  background: #FFFFFF; 
+  font-family: Arial, sans-serif; 
+  font-size: 14px; 
+  font-family: Montserrat;
+}
+
+p{
+  font-size: 13px;
+}
+
+header {
+  padding: 0px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #AAAAAA;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 20px;
+  font-size: 13px;
+}
+
+table th,
+table td {
+  padding: 20px;
+  text-align: center;
+}
+
+table th {
+  white-space: nowrap;        
+  font-weight: normal;
+  color: #000;
+}
+
+table td {
+  text-align: left;
+}
+
+#mail {
+  float: right;
+  padding: 50px 30px 20px 156px;
+  background: #2a3147;
+  text-align: right;
+}
+
+#mail .link{
+  color: #FFFFFF;
+}
+
+#company {
+  float: left;
+  text-align: left;
+  background: #6558f5;
+  padding: 30px 188px 20px 30px;
+  color: #FFFFFF;
+  
+}
+
+#company .tag{
+  font-size: 0.8em;
+}
+
+#details {
+  margin-bottom: 50px;
+}
+
+#client {
+  padding-left: 6px;
+  border-left: 6px solid #0087C3;
+  float: left;
+}
+
+#client .to {
+  color: #777777;
+}
+
+h2{
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 0;
+}
+
+h2.name {
+  color: #6558f5;
+  font-weight: bold;
+}
+
+h2.logo{
+  color: #FFFFFF;
+  font-weight: normal;
+}
+
+#invoice {
+  float: left;
+  text-align: left;
+}
+
+#invoice h1 {
+  color: #6558f5;
+  font-size: 2em;
+  line-height: 1em;
+  font-weight: bold;
+  margin: 10px 0 15px 0;
+}
+
+#invoice table{
+  border: 1px solid #6558f5;
+}
+
+#invoice table th{
+  color: #000;
+  font-weight: bold;
+}
+
+#invoice table td{
+  font-size: 13px;
+}
+
+#invoice table th,
+#invoice table td{
+  background: #f7f7fe;
+  border: 0px;
+  text-align: left;
+  padding: 10px 59px 10px 20px;
+}
+
+#user-left{
+  float: left;
+}
+
+#user-right{
+  float: right;
+}
+
+#user table td{
+  border-bottom: 1px solid #f0eefe;
+  padding: 10px;
+}
+
+#user .head{
+  color: #000;
+  font-weight: bold;
+  padding: 10px 100px 10px 20px;
+}
+
+#user .approval{
+  color: #0bd8c8;
+}
+
+#hcp{
+  background: #f7f7fe;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#hcp-left{
+  float: left;
+}
+
+#hcp-right{
+  float: right;
+  padding-right: 228px;
+}
+
+
+#hcp .name{
+  margin-bottom: 10px;
+}
+
+#hcp .no{
+  font-size: 13px;
+  color: #000;
+}
+
+#para{
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  margin: 20px 0px;
+  color: #000;
+}
+
+#order{
+  margin: 30px 0px 20px 0px;
+}
+
+
+#pay, #delivery{
+  background: #f7f7fe;
+  padding: 20px;
+  font-weight: bold;
+}
+
+#pay h2,
+#delivery h2{
+  margin-bottom: 20px;
+}
+
+#pay-left,
+#delivery-left{
+  float: left;
+}
+
+#pay-right{
+  float: right;
+  text-align: left;
+  padding-right: 140px;
+}
+
+#pay-right p,
+#delivery-left p{
+  color: #000;
+}
+
+#pay-left table td,
+#delivery-left table td{
+  padding: 10px 20px 10px 0px;
+  font-weight: normal;
+}
+
+#pay-left .head,
+#delivery-left .head{
+  color: #000;
+  font-weight: bold;
+}
+
+#delivery{
+  margin-top: 5px;
+}
+
+#delivery table td{
+  padding-right: 55px;
+}
+
+
+#delivery-right{
+  float: right;
+  text-align: left;
+  padding-right: 50px;
+}
+
+#delivery-right .box{
+  background: #FFFFFF;
+  border: 1px solid #d1cdfc;
+  height: 65px;
+}
+
+
+footer {
+  background: #6558f5;
+  color: #e2e0fd;
+  border-top: 1px solid #AAAAAA;
+  padding: 30px 20px;
+  text-align: left;
+  line-height: 2em;
+}
+
